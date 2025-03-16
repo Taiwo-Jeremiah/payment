@@ -12,7 +12,7 @@ function payWithFlutterwave() {
 
     // Initialize Flutterwave
     FlutterwaveCheckout({
-        public_key: "FLWPUBK_TEST-2c83c5bb2155178059daf2cbc96213cf-X", // Replace with your Flutterwave public key
+        public_key: "FLWPUBK_TEST-20cf0b96e5dd0cc3d58e6b33b5f7abbe-X", // Replace with your Flutterwave public key
         tx_ref: "TX_REF_" + Date.now(), // Unique transaction reference
         amount: amount,
         currency: "NGN", // Currency (Naira)
