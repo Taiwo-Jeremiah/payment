@@ -24,9 +24,9 @@ function payWithFlutterwave() {
             // Handle payment response
             console.log("Payment response:", response);
             if (response.status === "successful") {
-                //alert("Payment successful! Thank you for your purchase.");
+                alert("Payment successful! Thank you for your purchase.");
                 // Redirect or perform other actions here
-                window.location.href = "payment-successful.html"; // Replace with your success page URL
+                // window.location.href = "payment-successful.html"; // Replace with your success page URL
             } else {
                 alert("Payment failed. Please try again.");
             }
